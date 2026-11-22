@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1b1d1f">
+<meta name="color-scheme" content="light">
+<title>Tribliza Construction Company | Residential builders in Lusaka</title>
+<meta name="description" content="Registered Lusaka construction company: house construction, extensions, roofing, plastering, paving and foundations.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1b1d1f;--ink2:#2a2d30;--sand:#f5f0e8;--clay:#c2410c;--gold:#f2b134;--muted:#5d625f;--line:#e2dacb;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px));-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--sand);color:var(--ink);font:17px/1.65 Barlow,system-ui,sans-serif;overflow-x:hidden}
+h1,h2,h3{font-family:'Barlow Condensed',Impact,sans-serif;text-transform:uppercase;line-height:1;margin:0;letter-spacing:.01em}
+h2{font-size:clamp(2.2rem,5vw,3.6rem);font-weight:800}
+h3{font-size:1.5rem;font-weight:700}
+p{margin:0}a{color:inherit}
+a,button{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1160px;margin:0 auto;padding:0 22px}
+section{padding:92px 0}
+.eyebrow{font:700 .95rem 'Barlow Condensed';letter-spacing:.2em;text-transform:uppercase;color:var(--clay);display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.eyebrow::before{content:"";width:36px;height:3px;background:var(--clay)}
+.lead{color:var(--muted);max-width:60ch;margin-top:16px}
+/* header */
+header{position:fixed;top:0;left:0;right:0;z-index:30;padding-top:env(safe-area-inset-top,0px);transition:background .3s,box-shadow .3s}
+header.solid{background:rgba(27,29,31,.96);box-shadow:0 2px 20px rgba(0,0,0,.25)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between;color:#fff}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font:800 1.6rem 'Barlow Condensed';letter-spacing:.08em;line-height:1}
+.logo small{display:block;font-size:.62rem;letter-spacing:.38em;color:var(--gold);font-weight:600}
+.logo svg{width:38px;height:38px;flex:none}
+.links{display:flex;gap:26px;align-items:center}
+.links a{text-decoration:none;font-weight:500;font-size:.95rem;position:relative}
+.links a:not(.btn)::after{content:"";position:absolute;left:0;bottom:-5px;height:2px;width:0;background:var(--gold);transition:width .3s}
+.links a:not(.btn):hover::after{width:100%}
+.menu{display:none;background:none;border:0;color:#fff;font-size:1.8rem;min-width:48px;min-height:48px;cursor:pointer}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--clay);color:#fff;padding:14px 26px;font:700 1.05rem 'Barlow Condensed';letter-spacing:.08em;text-transform:uppercase;text-decoration:none;border:0;cursor:pointer;min-height:48px;transition:transform .25s,background .25s;clip-path:polygon(0 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%)}
+.btn:hover{transform:translateY(-3px);background:#a3360a}
+.btn.wa{background:#1fa855}.btn.wa:hover{background:#178a45}
+.btn.ghost{background:transparent;box-shadow:inset 0 0 0 2px #fff}
+.btn.ghost:hover{background:#fff;color:var(--ink)}
+.btn svg,.fab svg{width:20px;height:20px;fill:currentColor;flex:none}
+/* hero */
+.hero{position:relative;min-height:100vh;min-height:100svh;display:flex;align-items:center;color:#fff;overflow:hidden;padding:120px 0 80px;background:var(--ink)}
+.hero .bg{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;animation:kb 22s ease-in-out infinite alternate}
+@keyframes kb{to{transform:scale(1.12)}}
+.hero::after{content:"";position:absolute;top:0;left:0;right:0;bottom:0;background:linear-gradient(100deg,rgba(27,29,31,.92) 20%,rgba(27,29,31,.45))}
+.hero .wrap{position:relative;z-index:2}
+.hero h1{font-size:clamp(3rem,9vw,6.4rem);font-weight:800;max-width:11ch}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero h1 span{display:block;opacity:0;transform:translateY(40px);animation:up .8s cubic-bezier(.2,.8,.2,1) forwards}
+.hero h1 span:nth-child(2){animation-delay:.15s}.hero h1 span:nth-child(3){animation-delay:.3s}
+.hero p{max-width:52ch;margin-top:22px;font-size:1.12rem;opacity:0;animation:up .8s .5s forwards}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px;opacity:0;animation:up .8s .65s forwards}
+@keyframes up{to{opacity:1;transform:none}}
+.badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:38px;opacity:0;animation:up .8s .8s forwards}
+.badges span{border:1px solid rgba(255,255,255,.4);padding:8px 14px;font:600 .95rem 'Barlow Condensed';letter-spacing:.1em;text-transform:uppercase}
+.badges span::before{content:"✓ ";color:var(--gold)}
+/* ticker */
+.ticker{background:var(--gold);color:var(--ink);overflow:hidden;white-space:nowrap;padding:14px 0;font:800 1.3rem 'Barlow Condensed';letter-spacing:.14em;text-transform:uppercase}
+.ticker div{display:inline-block;animation:tick 28s linear infinite}
+.ticker span{margin:0 26px}.ticker span::after{content:"◆";margin-left:52px;opacity:.5}
+@keyframes tick{to{transform:translateX(-50%)}}
+/* services */
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:46px}
+.svc{background:#fff;overflow:hidden;border-bottom:4px solid var(--clay);transition:transform .35s,box-shadow .35s}
+.svc:hover{transform:translateY(-8px);box-shadow:0 26px 40px -26px rgba(0,0,0,.5)}
+.svc .im{height:210px;overflow:hidden}
+.svc img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .7s}
+.svc:hover img{transform:scale(1.1)}
+.svc .tx{padding:22px 24px 26px}
+.svc p{color:var(--muted);font-size:.97rem;margin-top:8px}
+.num{font:800 .95rem 'Barlow Condensed';color:var(--clay);letter-spacing:.15em;display:block;margin-bottom:6px}
+/* before after */
+.dark{background:var(--ink);color:#fff}
+.dark .lead{color:#b9bcb8}.dark .eyebrow{color:var(--gold)}.dark .eyebrow::before{background:var(--gold)}
+.tog{display:inline-flex;margin-top:28px;border:2px solid var(--gold)}
+.tog button{background:none;border:0;color:#fff;font:700 1.1rem 'Barlow Condensed';letter-spacing:.12em;text-transform:uppercase;padding:12px 28px;min-height:48px;cursor:pointer;transition:background .3s,color .3s}
+.tog button[aria-pressed=true]{background:var(--gold);color:var(--ink)}
+.bas{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:34px}
+.ba{height:0;padding-bottom:75%;background-size:100% 200%;background-position:0 0;background-repeat:no-repeat;transition:background-position 1.1s cubic-bezier(.7,0,.2,1);position:relative;border:3px solid #fff}
+.ba.b{background-position:0 100%}
+.ba b{position:absolute;left:0;top:0;background:var(--gold);color:var(--ink);padding:6px 16px;font:800 1rem 'Barlow Condensed';letter-spacing:.14em}
+/* why */
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:44px}
+.why{border:2px solid var(--ink);padding:28px 22px;transition:background .3s,color .3s,transform .3s}
+.why:hover{background:var(--ink);color:#fff;transform:translateY(-6px)}
+.why .ic{font-size:2rem;margin-bottom:14px;display:block}
+.why p{margin-top:8px;font-size:.96rem;opacity:.8}
+/* process */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:46px;counter-reset:s}
+.step{padding:0 24px 0 0;position:relative}
+.step::before{counter-increment:s;content:"0" counter(s);font:800 4.4rem 'Barlow Condensed';color:var(--gold);display:block;line-height:1}
+.step::after{content:"";display:block;height:3px;background:#555;margin:14px 0;transform-origin:left;transform:scaleX(0);transition:transform 1s .3s}
+.step.in::after{transform:scaleX(1)}
+.step p{color:#b9bcb8;font-size:.96rem;margin-top:8px}
+/* gallery */
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px}
+.filters button{background:none;border:2px solid var(--ink);font:700 1rem 'Barlow Condensed';letter-spacing:.1em;text-transform:uppercase;padding:9px 20px;min-height:44px;cursor:pointer;transition:background .25s,color .25s}
+.filters button[aria-pressed=true]{background:var(--ink);color:#fff}
+.gal{columns:3;column-gap:16px;margin-top:30px}
+.gal figure{margin:0 0 16px;break-inside:avoid;position:relative;overflow:hidden;cursor:zoom-in;background:#ddd}
+.gal img{width:100%;display:block;transition:transform .6s}
+.gal figure:hover img{transform:scale(1.06)}
+.gal figcaption{position:absolute;left:0;bottom:0;right:0;padding:26px 14px 10px;background:linear-gradient(transparent,rgba(0,0,0,.75));color:#fff;font:700 1rem 'Barlow Condensed';letter-spacing:.1em;text-transform:uppercase}
+.gal figure.hide{display:none}
+.lb{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.92);z-index:60;display:none;align-items:center;justify-content:center;padding:20px}
+.lb.on{display:flex;animation:fd .3s}
+.lb img{max-width:100%;max-height:88vh;display:block}
+.lb button{position:absolute;top:calc(14px + env(safe-area-inset-top,0px));right:16px;background:none;border:0;color:#fff;font-size:2.4rem;min-width:48px;min-height:48px;cursor:pointer}
+@keyframes fd{from{opacity:0}}
+/* contact */
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:44px;margin-top:40px}
+.cards{display:grid;gap:14px;align-content:start}
+.cc{display:flex;gap:16px;align-items:center;padding:18px 20px;background:#222528;text-decoration:none;transition:transform .3s,background .3s}
+.cc:hover{transform:translateX(6px);background:#2f3337}
+.cc i{font-style:normal;font-size:1.6rem;width:46px;height:46px;background:var(--clay);display:grid;place-items:center;flex:none}
+.cc small{display:block;color:#9ea29e;font-size:.82rem}
+.cc b{font-weight:600;word-break:break-word}
+form{background:#fff;color:var(--ink);padding:30px;display:grid;gap:14px;border-top:5px solid var(--gold)}
+label{display:grid;gap:6px;font-weight:600;font-size:.92rem}
+input,select{font:inherit;font-size:16px;min-height:48px;padding:10px 12px;border:2px solid var(--line);background:#fffdf9;color:var(--ink);border-radius:0;-webkit-appearance:none;appearance:none}
+select{background-image:linear-gradient(45deg,transparent 50%,#555 50%),linear-gradient(135deg,#555 50%,transparent 50%);background-position:calc(100% - 20px) 55%,calc(100% - 14px) 55%;background-size:6px 6px;background-repeat:no-repeat;padding-right:36px}
+input:focus,select:focus{outline:0;border-color:var(--clay)}
+.note{font-size:.85rem;color:var(--muted)}
+footer{background:#111214;color:#b9bcb8;padding:40px 0 90px;font-size:.92rem}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.fabs{position:fixed;right:max(14px,env(safe-area-inset-right,0px));bottom:calc(14px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:10px;z-index:40}
+.fab{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;color:#fff;box-shadow:0 10px 24px -6px rgba(0,0,0,.5);text-decoration:none;position:relative;transition:transform .25s}
+.fab svg{width:26px;height:26px}.fab:hover{transform:scale(1.1)}
+.fab.w{background:#1fa855}.fab.c{background:var(--clay)}
+.fab.w::after{content:"";position:absolute;top:0;left:0;right:0;bottom:0;border-radius:50%;border:2px solid #1fa855;animation:ping 2.2s infinite}
+@keyframes ping{to{transform:scale(1.7);opacity:0}}
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .8s,transform .8s}
+.reveal.in{opacity:1;transform:none}
+@media(max-width:900px){
+ section{padding:68px 0}
+ .menu{display:block}
+ .links{position:fixed;top:calc(72px + env(safe-area-inset-top,0px));left:0;right:0;background:var(--ink);flex-direction:column;padding:40px 24px 24px;gap:18px;transform:translateY(-140%);transition:transform .4s;z-index:-1}
+ .links.open{transform:none}
+ .grid3,.contact,.bas{grid-template-columns:1fr}
+ .grid4{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr;row-gap:34px}
+ .gal{columns:2}
+ .hero .bg{animation:none}
+}
+@media(max-width:480px){.wrap{padding:0 16px}.grid4,.steps{grid-template-columns:1fr}.gal{columns:1}.hero h1{font-size:3.1rem}.cta .btn{flex:1 1 100%;justify-content:center}form{padding:22px}}
+@media(hover:none){.svc:hover,.why:hover,.cc:hover,.btn:hover,.fab:hover{transform:none}.svc:hover img,.gal figure:hover img{transform:none}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal,.hero h1 span,.hero p,.cta,.badges{opacity:1;transform:none}}
+
+.logo{background:#fff;padding:6px 10px;align-self:flex-start;border-radius:0 0 10px 10px;box-shadow:0 10px 22px rgba(0,0,0,.35);transition:transform .3s;transform-origin:top left}
+.logo:hover{transform:scale(1.05)}
+.logo img{height:98px;width:auto;display:block}
+.flogo{height:72px;width:auto;background:#fff;padding:6px 12px;display:block;margin-bottom:14px}
+.hero{isolation:isolate}.hero .bg{z-index:-1}.hero::after{z-index:0}
+.crane{position:absolute;right:3%;bottom:0;height:82%;width:auto;z-index:1;opacity:.95}
+.tro{animation:tro 9s ease-in-out infinite alternate}
+.cb{transform-box:fill-box;transform-origin:top center;animation:cb 4.5s ease-in-out infinite alternate}
+.ld{animation:ld 4.5s ease-in-out infinite alternate}
+@keyframes tro{to{transform:translateX(-150px)}}
+@keyframes cb{from{transform:scaleY(.45)}to{transform:scaleY(1)}}
+@keyframes ld{from{transform:translateY(-60px)}to{transform:none}}
+.wb{opacity:0;animation:lay 9s infinite}
+@keyframes lay{0%{opacity:0;transform:translateY(-16px)}6%{opacity:1;transform:none}88%{opacity:1}96%,100%{opacity:0}}
+.loader{position:fixed;top:0;left:0;right:0;bottom:0;background:#1b1d1f;z-index:100;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;animation:lo .6s 2.6s forwards}
+.loader p{font:700 1rem 'Barlow Condensed';letter-spacing:.35em;color:#f2b134;margin:0}
+.bk{opacity:0;transform:translateY(-30px);animation:drop .35s forwards}
+@keyframes drop{to{opacity:1;transform:none}}
+.rf{stroke-dasharray:300;stroke-dashoffset:300;animation:dr .6s 1.9s forwards}
+@keyframes dr{to{stroke-dashoffset:0}}
+@keyframes lo{to{opacity:0;visibility:hidden}}
+.prog{position:fixed;top:0;left:0;right:0;height:5px;z-index:70;background:rgba(0,0,0,.25)}
+.prog i{display:block;height:100%;width:0;background:repeating-linear-gradient(45deg,#f2b134 0 8px,#1b1d1f 8px 16px)}
+.haz{height:14px;background:linear-gradient(45deg,#f2b134 25%,#1b1d1f 25% 50%,#f2b134 50% 75%,#1b1d1f 75%);background-size:28px 28px;animation:hz 1.4s linear infinite}
+@keyframes hz{to{background-position:28px 0}}
+.mapbox{grid-column:1/-1;margin-top:46px;position:relative;border:3px solid var(--gold);background:#e8e2d4;min-height:340px;overflow:hidden}
+.contact .mapbox{grid-column:1/-1}
+.mapbox iframe{width:100%;height:420px;border:0;display:block}
+.mapsvg{display:block;width:100%;height:420px}
+.mapcard{position:absolute;left:18px;bottom:18px;right:18px;max-width:380px;background:#fff;color:var(--ink);padding:18px 20px;border-left:5px solid var(--clay)}
+.mapcard p{color:var(--muted);font-size:.93rem;margin:6px 0 14px}
+.mapcard .btn{padding:10px 18px}
+.pin{animation:bob 2s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-10px)}}
+.pr{transform-box:fill-box;transform-origin:center;animation:pr 2s ease-out infinite}
+@keyframes pr{from{transform:scale(.3);opacity:.7}to{transform:scale(2.2);opacity:0}}
+@media(max-width:700px){.crane{height:48%;right:-24px;opacity:.4}.logo img{height:74px}}
+@media(prefers-reduced-motion:reduce){.loader{display:none}}
+@media(max-width:480px){.hero{padding:130px 0 70px}.mapsvg,.mapbox iframe{height:340px}.mapcard{left:10px;right:10px;bottom:10px;padding:14px}.filters button{padding:8px 14px}.tog button{padding:12px 20px}.contact{gap:30px}.svc .im{height:190px}}
+@media(max-width:360px){.hero h1{font-size:2.6rem}.logo img{height:64px}}
+.cc img{width:52px;height:52px;flex:none;object-fit:contain;background:#fff;padding:6px;border-radius:14px;transition:transform .35s}
+.cc:hover img{transform:rotate(-8deg) scale(1.1)}
+</style>
+</head>
+<body>
+<div class="loader" aria-hidden="true"><svg viewBox="0 0 200 150" width="220"><rect class="bk" x="22" y="124" width="26" height="12" fill="#8a8d90" style="animation-delay:0.0s"/><rect class="bk" x="50" y="124" width="26" height="12" fill="#f58220" style="animation-delay:0.06s"/><rect class="bk" x="78" y="124" width="26" height="12" fill="#8a8d90" style="animation-delay:0.12s"/><rect class="bk" x="106" y="124" width="26" height="12" fill="#f58220" style="animation-delay:0.18s"/><rect class="bk" x="134" y="124" width="26" height="12" fill="#8a8d90" style="animation-delay:0.24s"/><rect class="bk" x="162" y="124" width="26" height="12" fill="#f58220" style="animation-delay:0.3s"/><rect class="bk" x="35" y="110" width="26" height="12" fill="#f58220" style="animation-delay:0.36s"/><rect class="bk" x="63" y="110" width="26" height="12" fill="#8a8d90" style="animation-delay:0.42s"/><rect class="bk" x="91" y="110" width="26" height="12" fill="#f58220" style="animation-delay:0.48s"/><rect class="bk" x="119" y="110" width="26" height="12" fill="#8a8d90" style="animation-delay:0.54s"/><rect class="bk" x="147" y="110" width="26" height="12" fill="#f58220" style="animation-delay:0.6s"/><rect class="bk" x="22" y="96" width="26" height="12" fill="#8a8d90" style="animation-delay:0.72s"/><rect class="bk" x="50" y="96" width="26" height="12" fill="#f58220" style="animation-delay:0.78s"/><rect class="bk" x="78" y="96" width="26" height="12" fill="#8a8d90" style="animation-delay:0.84s"/><rect class="bk" x="106" y="96" width="26" height="12" fill="#f58220" style="animation-delay:0.9s"/><rect class="bk" x="134" y="96" width="26" height="12" fill="#8a8d90" style="animation-delay:0.96s"/><rect class="bk" x="162" y="96" width="26" height="12" fill="#f58220" style="animation-delay:1.02s"/><rect class="bk" x="35" y="82" width="26" height="12" fill="#f58220" style="animation-delay:1.08s"/><rect class="bk" x="63" y="82" width="26" height="12" fill="#8a8d90" style="animation-delay:1.14s"/><rect class="bk" x="91" y="82" width="26" height="12" fill="#f58220" style="animation-delay:1.2s"/><rect class="bk" x="119" y="82" width="26" height="12" fill="#8a8d90" style="animation-delay:1.26s"/><rect class="bk" x="147" y="82" width="26" height="12" fill="#f58220" style="animation-delay:1.32s"/><rect class="bk" x="22" y="68" width="26" height="12" fill="#8a8d90" style="animation-delay:1.44s"/><rect class="bk" x="50" y="68" width="26" height="12" fill="#f58220" style="animation-delay:1.5s"/><rect class="bk" x="78" y="68" width="26" height="12" fill="#8a8d90" style="animation-delay:1.56s"/><rect class="bk" x="106" y="68" width="26" height="12" fill="#f58220" style="animation-delay:1.62s"/><rect class="bk" x="134" y="68" width="26" height="12" fill="#8a8d90" style="animation-delay:1.68s"/><rect class="bk" x="162" y="68" width="26" height="12" fill="#f58220" style="animation-delay:1.74s"/><polyline class="rf" points="12,56 100,8 188,56" fill="none" stroke="#f2b134" stroke-width="5" stroke-linejoin="round"/></svg><p>BUILDING YOUR FUTURE</p></div><div class="prog"><i id="pg"></i></div>
+<header id="top"><div class="wrap nav">
+ <a class="logo" href="#top" aria-label="Tribliza Construction"><img src="images/logo.jpg" alt="Tribliza Construction Company logo"></a>
+ <button class="menu" aria-label="Open menu" aria-expanded="false">☰</button>
+ <nav class="links" id="links"><a href="#services">Services</a><a href="#transform">Transformations</a><a href="#why">Why us</a><a href="#work">Our work</a><a href="#contact">Contact</a><a class="btn" href="tel:+260770300984"><svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1.02l-2.2 2.2z"/></svg>Call now</a></nav>
+</div></header>
+
+<div class="fabs"><a class="fab w" data-wa href="#" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.8 14.2c-.25.7-1.4 1.3-1.9 1.3-.5.05-1.1.07-1.8-.1a16 16 0 0 1-6.2-4.8c-.9-1.2-1.5-2.5-1.5-3.8 0-1.3.7-1.9.9-2.2.25-.25.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.4 0 .5l-.4.6-.4.5c-.1.15-.2.3-.1.5.5.9 1.2 1.7 2 2.3.8.6 1.6.9 1.9 1 .25.1.4.1.5-.1l.8-1c.2-.25.4-.2.6-.1l1.8.9c.25.1.4.2.5.3.1.2.1.8-.2 1.6z"/></svg></a><a class="fab c" href="tel:+260770300984" aria-label="Call now"><svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1.02l-2.2 2.2z"/></svg></a></div>
+
+<main>
+<section class="hero"><img class="bg" src="images/home-grey.jpg" alt=""><svg class="crane" viewBox="0 0 400 520" aria-hidden="true"><g fill="none" stroke="#f2b134" stroke-width="3"><path d="M240 510V60M270 510V60"/><polyline points="240,510 270,476 240,442 270,408 240,374 270,340 240,306 270,272 240,238 270,204 240,170 270,136 240,102 270,68"/><path d="M255 56V8M255 8L24 40M255 8L346 40" stroke-width="2"/></g><rect x="0" y="513" width="400" height="3" fill="#f2b134" opacity=".5"/><rect x="230" y="506" width="50" height="8" fill="#f2b134"/><rect x="232" y="48" width="46" height="24" fill="#f58220"/><rect x="20" y="40" width="330" height="9" fill="#f58220"/><rect x="326" y="49" width="22" height="26" fill="#5b5f62"/><rect class="wb" x="30" y="498" width="30" height="11" fill="#f58220" stroke="#1b1d1f" stroke-width="1.5" style="animation-delay:0.0s"/><rect class="wb" x="62" y="498" width="30" height="11" fill="#f58220" stroke="#1b1d1f" stroke-width="1.5" style="animation-delay:0.5s"/><rect class="wb" x="94" y="498" width="30" height="11" fill="#f58220" stroke="#1b1d1f" stroke-width="1.5" style="animation-delay:1.0s"/><rect class="wb" x="126" y="498" width="30" height="11" fill="#f58220" stroke="#1b1d1f" stroke-width="1.5" style="animation-delay:1.5s"/><rect class="wb" x="158" y="498" width="30" height="11" fill="#f58220" stroke="#1b1d1f" stroke-width="1.5" style="animation-delay:2.0s"/><rect class="wb" x="46" y="485" width="30" height="11" fill="#f58220" stroke="#1b1d1f" stroke-width="1.5" style="animation-delay:2.5s"/><rect class="wb" x="78" y="485" width="30" height="11" fill="#f58220" stroke="#1b1d1f" stroke-width="1.5" style="animation-delay:3.0s"/><rect class="wb" x="110" y="485" width="30" height="11" fill="#f58220" stroke="#1b1d1f" stroke-width="1.5" style="animation-delay:3.5s"/><rect class="wb" x="142" y="485" width="30" height="11" fill="#f58220" stroke="#1b1d1f" stroke-width="1.5" style="animation-delay:4.0s"/><rect class="wb" x="30" y="472" width="30" height="11" fill="#f58220" stroke="#1b1d1f" stroke-width="1.5" style="animation-delay:5.0s"/><rect class="wb" x="62" y="472" width="30" height="11" fill="#f58220" stroke="#1b1d1f" stroke-width="1.5" style="animation-delay:5.5s"/><rect class="wb" x="94" y="472" width="30" height="11" fill="#f58220" stroke="#1b1d1f" stroke-width="1.5" style="animation-delay:6.0s"/><rect class="wb" x="126" y="472" width="30" height="11" fill="#f58220" stroke="#1b1d1f" stroke-width="1.5" style="animation-delay:6.5s"/><rect class="wb" x="158" y="472" width="30" height="11" fill="#f58220" stroke="#1b1d1f" stroke-width="1.5" style="animation-delay:7.0s"/><g class="tro"><rect x="196" y="49" width="22" height="8" fill="#fff"/><rect class="cb" x="206" y="57" width="2" height="110" fill="#fff"/><g class="ld"><rect x="190" y="167" width="34" height="16" fill="#f58220"/><path d="M198 167l9-9 9 9" stroke="#fff" stroke-width="2" fill="none"/></g></g></svg>
+ <div class="wrap">
+  <h1><span>Strong homes.</span><span><em>Modern</em> finish.</span><span>Built to last.</span></h1>
+  <p>Tribliza Construction Company is a fully registered Lusaka based firm specializing in residential housing construction. Quality workmanship and attention to detail, from foundation to final coat.</p>
+  <div class="cta"><a class="btn" href="#contact">Request a quotation</a><a class="btn wa" data-wa href="#" target="_blank" rel="noopener">WhatsApp us</a><a class="btn ghost" href="tel:+260770300984">Call 0770 300 984</a></div>
+  <div class="badges"><span>PACRA registered</span><span>NCC registered contractor</span><span>Lusaka based</span></div>
+ </div>
+</section>
+<div class="ticker" aria-hidden="true"><div><span>House construction</span><span>Extensions & renovations</span><span>Roofing</span><span>Plastering & finishing</span><span>Paving & driveways</span><span>Foundations & structural works</span><span>House construction</span><span>Extensions & renovations</span><span>Roofing</span><span>Plastering & finishing</span><span>Paving & driveways</span><span>Foundations & structural works</span></div></div>
+
+<section id="services"><div class="wrap">
+ <div class="reveal"><div class="eyebrow">What we build</div><h2>Our specialties</h2><p class="lead">Everything your home needs, handled by one team with professional supervision on every project.</p></div>
+ <div class="grid3">
+  <article class="svc reveal"><div class="im"><img src="images/home-red.jpg" alt="Completed house with red roof" loading="lazy"></div><div class="tx"><span class="num">01</span><h3>Residential house construction</h3><p>Complete family homes, built strong, modern and durable.</p></div></article>
+  <article class="svc reveal"><div class="im"><img src="images/project-green.jpg" alt="House before and after" loading="lazy" style="object-position:top"></div><div class="tx"><span class="num">02</span><h3>Home extensions & renovations</h3><p>Add space or give your existing home a fresh start.</p></div></article>
+  <article class="svc reveal"><div class="im"><img src="images/home-grey.jpg" alt="House with grey roof sheets" loading="lazy"></div><div class="tx"><span class="num">03</span><h3>Roofing installation</h3><p>Neat, secure roofing that protects your home for years.</p></div></article>
+  <article class="svc reveal"><div class="im"><img src="images/ceiling-pendant.jpg" alt="Finished ceiling with lighting" loading="lazy"></div><div class="tx"><span class="num">04</span><h3>Plastering & finishing</h3><p>Smooth walls, clean lines and ceilings with a refined finish.</p></div></article>
+  <article class="svc reveal"><div class="im"><img src="images/project-teal.jpg" alt="Paved driveway" loading="lazy" style="object-position:top"></div><div class="tx"><span class="num">05</span><h3>Paving & driveways</h3><p>Durable paving that makes a great first impression.</p></div></article>
+  <article class="svc reveal"><div class="im"><img src="images/foundation.jpg" alt="Foundation blockwork" loading="lazy"></div><div class="tx"><span class="num">06</span><h3>Foundation & structural works</h3><p>Solid foundations and structure, because everything rests on them.</p></div></article>
+ </div>
+</div></section>
+
+<section id="transform" class="dark"><div class="wrap">
+ <div class="reveal"><div class="eyebrow">Before and after</div><h2>From bare blocks to finished homes</h2><p class="lead">Same site, same home. Tap to see how the work turns an empty plot into a place to live.</p>
+ <div class="tog" role="group" aria-label="Before or after"><button id="bBefore" aria-pressed="false">Before</button><button id="bAfter" aria-pressed="true">After</button></div></div>
+ <div class="bas reveal"><div class="ba" style="background-image:url(images/project-green.jpg)" role="img" aria-label="Green roof house transformation"><b id="l1">AFTER</b></div><div class="ba" style="background-image:url(images/project-teal.jpg)" role="img" aria-label="Teal roof house transformation"><b id="l2">AFTER</b></div></div>
+</div></section>
+
+<div class="haz" aria-hidden="true"></div>
+<section id="why"><div class="wrap">
+ <div class="reveal"><div class="eyebrow">Why Tribliza</div><h2>Built on clear promises</h2></div>
+ <div class="grid4">
+  <div class="why reveal"><span class="ic">📋</span><h3>Detailed quotations</h3><p>You know the cost before we break ground.</p></div>
+  <div class="why reveal"><span class="ic">📅</span><h3>Clear timelines</h3><p>A plan you can follow, with milestones that make sense.</p></div>
+  <div class="why reveal"><span class="ic">👷</span><h3>Professional supervision</h3><p>Every project is overseen from start to handover.</p></div>
+  <div class="why reveal"><span class="ic">✅</span><h3>Registered and credible</h3><p>PACRA registered and an NCC registered contractor.</p></div>
+ </div>
+</div></section>
+
+<section class="dark" style="padding-top:70px"><div class="wrap">
+ <div class="reveal"><div class="eyebrow">How it works</div><h2>Four steps to your home</h2></div>
+ <div class="steps">
+  <div class="step reveal"><h3>Consult</h3><p>Tell us what you want to build, extend or renovate.</p></div>
+  <div class="step reveal"><h3>Quote</h3><p>Receive a detailed quotation and a clear timeline.</p></div>
+  <div class="step reveal"><h3>Build</h3><p>Our team builds with professional supervision on site.</p></div>
+  <div class="step reveal"><h3>Handover</h3><p>We finish the details and hand over your home.</p></div>
+ </div>
+</div></section>
+
+<section id="work"><div class="wrap">
+ <div class="reveal"><div class="eyebrow">Our work</div><h2>Projects gallery</h2><p class="lead">Tap any photo to view it larger.</p></div>
+ <div class="filters reveal" id="filters"><button aria-pressed="true" data-f="all">All</button><button aria-pressed="false" data-f="homes">Homes</button><button aria-pressed="false" data-f="found">Foundations</button><button aria-pressed="false" data-f="fin">Finishing</button><button aria-pressed="false" data-f="out">Pools & paving</button></div>
+ <div class="gal" id="gal">
+  <figure data-c="homes"><img src="images/home-red.jpg" alt="House with red roof" loading="lazy"><figcaption>Family home</figcaption></figure>
+  <figure data-c="found"><img src="images/foundation.jpg" alt="Foundation blockwork" loading="lazy"><figcaption>Foundation works</figcaption></figure>
+  <figure data-c="fin"><img src="images/ceiling-room.jpg" alt="Ceiling with LED lighting" loading="lazy"><figcaption>Ceiling & lighting</figcaption></figure>
+  <figure data-c="out"><img src="images/pool-1.jpg" alt="Pool with paved deck" loading="lazy"><figcaption>Pool & paving</figcaption></figure>
+  <figure data-c="homes"><img src="images/home-grey.jpg" alt="House with grey roof" loading="lazy"><figcaption>Modern home</figcaption></figure>
+  <figure data-c="fin"><img src="images/ceiling-pendant.jpg" alt="Ceiling with pendant lights" loading="lazy"><figcaption>Finishing details</figcaption></figure>
+  <figure data-c="found"><img src="images/blockwork.jpg" alt="Blockwork walls" loading="lazy"><figcaption>Structural blockwork</figcaption></figure>
+  <figure data-c="out"><img src="images/pool-2.jpg" alt="Pool with steps" loading="lazy"><figcaption>Pool & paving</figcaption></figure>
+  <figure data-c="fin"><img src="images/ceiling-led.jpg" alt="Modern ceiling lines" loading="lazy"><figcaption>Modern ceiling</figcaption></figure>
+  <figure data-c="out"><img src="images/pool-3.jpg" alt="Pool and paved area" loading="lazy"><figcaption>Pool & paving</figcaption></figure>
+ </div>
+</div></section>
+
+<section id="contact" class="dark"><div class="wrap">
+ <div class="reveal"><div class="eyebrow">Let’s build</div><h2>Get your quotation</h2><p class="lead">Tell us about your project. We reply with a detailed quotation and a clear timeline.</p></div>
+ <div class="contact">
+  <div class="cards reveal">
+   <a class="cc" href="tel:+260770300984"><img src="images/icon-call.png" alt=""><span><small>Call us</small><b>0770 300 984</b></span></a>
+   <a class="cc" data-wa href="#" target="_blank" rel="noopener"><img src="images/icon-whatsapp.png" alt=""><span><small>WhatsApp</small><b>+260 976 957 175</b></span></a>
+   <a class="cc" href="mailto:triblizaconstruction@gmail.com"><img src="images/icon-gmail.png" alt=""><span><small>Email</small><b>triblizaconstruction@gmail.com</b></span></a>
+   <a class="cc" href="#mapbox"><img src="images/icon-location.png" alt=""><span><small>Find us</small><b>Lusaka, Zambia</b></span></a>
+  </div>
+  <form id="form" class="reveal">
+   <label>Your name<input name="n" required autocomplete="name"></label>
+   <label>Phone number<input name="p" type="tel" required autocomplete="tel"></label>
+   <label>Project type<select name="t"><option>House construction</option><option>Extension or renovation</option><option>Roofing</option><option>Plastering & finishing</option><option>Paving & driveway</option><option>Foundation & structural</option></select></label>
+   <label>Project location<input name="l" placeholder="For example, Chilanga, Lusaka" required></label>
+   <button class="btn wa" type="submit">Send on WhatsApp</button>
+   <p class="note">This opens WhatsApp with your details filled in, ready to send.</p>
+  </form>
+ </div>
+ <div class="mapbox reveal" id="mapbox"></div>
+</div></section>
+</main>
+
+<div class="haz" aria-hidden="true"></div>
+<footer><div class="wrap"><div><img class="flogo" src="images/logo.jpg" alt="Tribliza logo"><b style="color:#fff;font-size:1.1rem">TRIBLIZA CONSTRUCTION COMPANY</b><br>PACRA registered · NCC registered contractor</div><div>0770 300 984 · +260 976 957 175<br>triblizaconstruction@gmail.com<br>© 2026 Tribliza Construction Company</div></div></footer>
+<div class="lb" id="lb" aria-modal="true" role="dialog"><button aria-label="Close">×</button><img alt=""></div>
+
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const WA='260976957175';
+if(typeof IMGS!=='undefined'){$$('[data-img]').forEach(e=>e.src=IMGS[e.dataset.img]);$$('[data-bg]').forEach(e=>e.style.backgroundImage='url('+IMGS[e.dataset.bg]+')')}
+$$('[data-wa]').forEach(a=>a.href='https://wa.me/'+WA+'?text='+encodeURIComponent('Hello Tribliza Construction, I would like a quotation.'));
+const hd=$('header');addEventListener('scroll',()=>hd.classList.toggle('solid',scrollY>30),{passive:true});
+const mn=$('.menu'),ln=$('#links');
+mn.onclick=()=>{const o=ln.classList.toggle('open');mn.setAttribute('aria-expanded',o)};
+ln.onclick=e=>{if(e.target.closest('a')){ln.classList.remove('open');mn.setAttribute('aria-expanded',false)}};
+const io=window.IntersectionObserver?new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.08}):null;
+$$('.reveal').forEach((el,i)=>{el.style.transitionDelay=(i%3)*90+'ms';io?io.observe(el):el.classList.add('in')});
+// before / after
+const bas=$$('.ba'),bB=$('#bBefore'),bA=$('#bAfter');
+function setBA(b){bas.forEach(x=>x.classList.toggle('b',b));$('#l1').textContent=$('#l2').textContent=b?'BEFORE':'AFTER';bB.setAttribute('aria-pressed',b);bA.setAttribute('aria-pressed',!b)}
+bB.onclick=()=>setBA(true);bA.onclick=()=>setBA(false);
+// filters
+$$('#filters button').forEach(b=>b.onclick=()=>{$$('#filters button').forEach(x=>x.setAttribute('aria-pressed',x===b));$$('#gal figure').forEach(f=>f.classList.toggle('hide',b.dataset.f!=='all'&&f.dataset.c!==b.dataset.f))});
+// lightbox
+const lb=$('#lb'),li=lb.querySelector('img');
+$$('#gal figure').forEach(f=>f.onclick=()=>{li.src=f.querySelector('img').src;li.alt=f.querySelector('img').alt;lb.classList.add('on')});
+lb.onclick=()=>lb.classList.remove('on');addEventListener('keydown',e=>{if(e.key==='Escape')lb.classList.remove('on')});
+// form to whatsapp
+$('#form').onsubmit=e=>{e.preventDefault();const f=new FormData(e.target);const t=`Hello Tribliza Construction, I would like a quotation. Name: ${f.get('n')}. Phone: ${f.get('p')}. Project: ${f.get('t')}. Location: ${f.get('l')}.`;window.open('https://wa.me/'+WA+'?text='+encodeURIComponent(t),'_blank')};
+
+setTimeout(()=>{const l=$('.loader');if(l)l.style.display='none'},3800);
+const pg=$('#pg');addEventListener('scroll',()=>{const m=document.documentElement.scrollHeight-innerHeight;pg.style.width=(m>0?scrollY/m*100:0)+'%'},{passive:true});
+/* ===== EDIT YOUR MAP HERE: use your exact Google Maps embed src, or coordinates ===== */
+const SITE={mapEmbed:"https://maps.google.com/maps?q=Lusaka,Zambia&z=12&output=embed",mapLink:"https://www.google.com/maps/search/?api=1&query=Lusaka,Zambia"};
+const mb=$('#mapbox');
+function drawMap(){mb.innerHTML=`<svg class="mapsvg" viewBox="0 0 800 420" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustrative map of Lusaka"><rect width="800" height="420" fill="#ece6d8"/><rect x="540" y="30" width="200" height="120" rx="30" fill="#cfe3bd"/><path d="M0 330Q160 290 280 350T540 380T800 330V420H0Z" fill="#cfe3bd"/><g fill="none" stroke="#fff" stroke-linecap="round"><path d="M-20 130L820 215" stroke-width="22"/><path d="M160 -20L270 440" stroke-width="14"/><path d="M570 -20L470 440" stroke-width="14"/><path d="M-20 350L820 320" stroke-width="10"/><path d="M300 70L760 100" stroke-width="8"/></g><text x="70" y="140" font-size="15" font-weight="700" fill="#8b8576">Great East Rd</text><text x="590" y="120" font-size="14" fill="#8b8576">Lusaka</text><circle class="pr" cx="400" cy="214" r="26" fill="#c2410c"/><g class="pin"><path d="M400 214C382 186 372 174 372 158a28 28 0 0 1 56 0c0 16-10 28-28 56z" fill="#c2410c"/><circle cx="400" cy="158" r="11" fill="#fff"/></g></svg><div class="mapcard"><h3>Tribliza Construction</h3><p>Lusaka, Zambia. Illustrative map; tap below to open Google Maps.</p><a class="btn" target="_blank" rel="noopener" href="${SITE.mapLink}">Open in Google Maps</a></div>`}
+if(SITE.mapEmbed){document.addEventListener('securitypolicyviolation',e=>{if(/frame/.test(e.violatedDirective))drawMap()});mb.innerHTML='<iframe title="Tribliza Construction on Google Maps" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="'+SITE.mapEmbed+'"></iframe>'}else drawMap();
+</script>
+</body>
+</html>
